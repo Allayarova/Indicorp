@@ -6,10 +6,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #f3f3f3;
+}
+
 .choose-section {
   width: 1600px;
   height: 526px;
-  background: #fafafa;
+  background: #f3f3f3;
   /* border: 1px solid green; */
 }
 
@@ -69,6 +73,7 @@
   width: 1050px;
   height: 209px;
   /* border: 1px solid gray; */
+  background: #f3f3f3;
 }
 
 .box {
@@ -267,4 +272,144 @@
   padding: 80px 0px;
   height: 699px;
   width: 1050px;
+}
+
+/* ========================================================================================= */
+
+@media only screen and (max-width: 1290px) {
+  .choose-section {
+    width: 1260px;
+    height: 200px;
+    margin-bottom: 400px;
+    background: #f3f3f3;
+    /* border: 1px solid green; */
+  }
+
+  .advice {
+    margin: 0 0 0 30px;
+  }
+
+  .pages{
+    margin-left: 30px;
+  }
+}
+
+/* ========================================================================================= */
+
+@media only screen and (max-width: 576px) {
+  .choose-section {
+    width: 1600px;
+    height: auto;
+    margin-bottom: 400px;
+    background: #f3f3f3;
+    /* border: 1px solid green; */
+  }
+
+  .row h2 {
+    width: 255px;
+    text-align: center;
+    height: 114px;
+  }
+
+  .row p {
+    width: 225px;
+    height: 80px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+
+  .boxing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 30px;
+    width: 1050px;
+    height: auto;
+    margin-top: 75px;
+    /* border: 1px solid gray; */
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 10px;
+    width: 230px;
+    height: 233px;
+    background: #ffffff;
+  }
+
+  .practice-advice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    height: 699px;
+    width: 1050px;
+    margin: 0 auto;
+  }
+
+  .advice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    height: auto;
+    width: 1050px;
+    /* border: 1px solid red; */
+    margin-top: 730px;
+  }
+
+  .heading h2 {
+    width: 180px;
+    height: 114px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252b42;
+  }
+
+  .heading p {
+    width: 225px;
+    height: 80px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1049px;
+    height: auto;
+    margin: 45px 0 0 0;
+  }
+
+  .page {
+    height: 342px;
+    width: 230px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+  }
 }
