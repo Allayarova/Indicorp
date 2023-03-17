@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+body {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.servicecont {
+  width: 60%;
+  margin: 0 auto;
+}
+.servicecont__text {
+  text-align: center;
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 20%;
+}
+.servicecont__text h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.servicecont__text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 120px;
+}
+.service__photo {
+  position: relative;
+}
+.service__photo--icon {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.service__photo--resp {
+  display: none;
+}
+.service__right--firsttext {
+  width: 84%;
+}
+.service__right--firsttext h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.service__right--firsttext p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-top: 10px;
+}
+.service__right--secondtext {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+  width: 80%;
+}
+.service__right--secondtext h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.service__right--thirdtext {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+  width: 80%;
+}
+.service__right--thirdtext h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.service__right p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1400px) {
+  body {
+    width: 85%;
+  }
+  .servicecont {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .service {
+    gap: 90px;
+  }
+  .service__right--firsttext {
+    width: 95%;
+  }
+  .service__right--secondtext {
+    width: 100%;
+  }
+  .service__right--thirdtext {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    width: 90%;
+  }
+  .servicecont {
+    width: 80%;
+  }
+  .servicecont__text {
+    margin-bottom: 80px;
+  }
+  .service {
+    gap: 60px;
+  }
+  .service__photo {
+    position: relative;
+  }
+  .service__photo--icon {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+  .service__right--firsttext {
+    width: 100%;
+  }
+  .service__right--firsttext h2 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .service__right--firsttext p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .service__right--secondtext {
+    gap: 15px;
+    width: 100%;
+  }
+  .service__right--thirdtext {
+    gap: 15px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  body {
+    width: 80%;
+  }
+  .servicecont {
+    width: 90%;
+  }
+  .servicecont__text {
+    margin-bottom: 80px;
+    margin-left: 15%;
+  }
+  .servicecont__text h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .servicecont__text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .service {
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+  .service__photo {
+    position: relative;
+  }
+  .service__photo--icon {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+  .service__right {
+    margin-top: 30px;
+  }
+  .service__right--firsttext {
+    text-align: center;
+    width: 100%;
+  }
+  .service__right--firsttext h2 {
+    font-size: 38px;
+    line-height: 53px;
+  }
+  .service__right--firsttext p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .service__right--secondtext {
+    margin-top: 30px;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+  }
+  .service__right--secondtext h3 {
+    font-size: 18px;
+  }
+  .service__right--thirdtext {
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+  }
+  .service__right--thirdtext h3 {
+    font-size: 18px;
+  }
+  .service__right p {
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    width: 85%;
+  }
+  .servicecont {
+    width: 95%;
+  }
+  .servicecont__text {
+    margin-bottom: 80px;
+    margin-left: 10%;
+    width: 85%;
+  }
+  .service__photo {
+    position: relative;
+  }
+  .service__photo--back {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 586px) {
+  body {
+    width: 85%;
+  }
+  .servicecont {
+    width: 90%;
+    margin-left: 0%;
+  }
+  .servicecont__text {
+    margin-bottom: 40px;
+    margin-left: 10%;
+    width: 95%;
+  }
+  .servicecont__text h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .servicecont__text p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 20px;
+  }
+  .service__photo {
+    position: relative;
+  }
+  .service__photo--back {
+    display: none;
+  }
+  .service__photo--icon {
+    display: none;
+  }
+  .service__photo--resp {
+    display: block;
+    width: 260px;
+    width: 100%;
+  }
+  .service__right--firsttext {
+    width: 95%;
+    text-align: center;
+  }
+  .service__right--firsttext h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .service__right--firsttext p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+  }
+  .service__right--secondtext {
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+  }
+  .service__right--secondtext h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .service__right--thirdtext {
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+  }
+  .service__right--thirdtext h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .service__right p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
