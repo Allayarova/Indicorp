@@ -25,9 +25,11 @@ body {
   color: rgb(2, 2, 39);
   line-height: 70px;
 }
-.touchSection__get img {
-  width: 470px;
-  height: 40px;
+.touchSection .infor p {
+  font-size: 14px;
+  line-height: 20px;
+  width: 550px;
+  color: #737373;
 }
 .touchSection .thre {
   width: 1000px;
@@ -51,20 +53,25 @@ body {
 }
 .touchSection .thre .first {
   margin-left: 60px;
-  width: 221px;
-  height: 22px;
-  margin-top: 6px;
+  font-family: Regular;
+}
+.touchSection .thre .secondd {
+  margin-left: 80px;
+  color: white;
+  font-family: Regular;
 }
 .touchSection .thre .second {
   margin-left: 80px;
-  width: 181px;
-  height: 24px;
+  font-family: Regular;
+}
+.touchSection .thre .threee {
+  margin-left: 110px;
+  color: white;
+  font-family: Regular;
 }
 .touchSection .thre .three {
-  margin-top: 10px;
-  margin-left: 115px;
-  width: 103px;
-  height: 24px;
+  margin-left: 110px;
+  font-family: Regular;
 }
 .touchSection .thre button {
   width: 160px;
@@ -72,6 +79,13 @@ body {
   margin-left: 90px;
   border-color: #FFA62B;
   background-color: white;
+  color: #FFA62B;
+  font-family: Regular;
+  font-size: 17, 72px;
+}
+.touchSection .thre .sub {
+  color: white;
+  font-family: Regular;
 }
 .touchSection .thre .location {
   background-color: #252B42;
@@ -101,7 +115,7 @@ body {
   margin-top: 96px;
 }
 .touchSection .thre .location .second {
-  margin-left: 80px;
+  margin-left: 0px;
   width: 181px;
   height: 24px;
 }
@@ -112,11 +126,17 @@ body {
   height: 24px;
 }
 .touchSection .thre .location button {
+  font-size: 14.72px;
   width: 160px;
   height: 44px;
   margin-left: 90px;
   border-color: #fff;
   background-color: #252B42;
+}
+.touchSection .thre button:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+  transition: all 3s;
 }
 .touchSection .thre .telegramp {
   background-color: white;
@@ -169,7 +189,99 @@ body {
     margin-left: 0;
   }
 }
+@media only screen and (max-width: 767px) {
+  .touchSection__get p {
+    line-height: 25px;
+    width: 360px;
+    margin-left: 50px;
+  }
+  .touchSection__get h1 {
+    margin-left: 50px;
+    font-size: 50px;
+  }
+  .touchSection--infor p {
+    width: 7px;
+    height: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 3px;
+  }
+  .thre {
+    display: grid;
+  }
+  .thre__contactPeace {
+    background-color: white;
+    width: 530px;
+    height: 670px;
+    margin-top: 0;
+    margin-left: 310px;
+  }
+  .thre .location {
+    position: absolute;
+    top: 750px;
+    left: 310px;
+  }
+  .thre .telegramp {
+    position: absolute;
+    top: 1240px;
+    left: 310px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .touchSection__get p {
+    line-height: 25px;
+    width: 360px;
+    margin-left: 50px;
+  }
+  .touchSection__get h1 {
+    margin-left: 50px;
+    font-size: 50px;
+  }
+  .touchSection--infor p {
+    width: 7px;
+    height: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 3px;
+  }
+  .thre {
+    display: grid;
+  }
+  .thre__contactPeace {
+    background-color: white;
+    width: 530px;
+    height: 670px;
+    margin-top: 0;
+    margin-left: 310px;
+  }
+  .thre .location {
+    position: absolute;
+    top: 750px;
+    left: 310px;
+  }
+  .thre .telegramp {
+    position: absolute;
+    top: 1240px;
+    left: 310px;
+  }
+}
 @media only screen and (max-width: 568px) {
+  .touchSection__get p {
+    line-height: 25px;
+    width: 360px;
+    margin-left: 50px;
+  }
+  .touchSection__get h1 {
+    margin-left: 50px;
+    font-size: 50px;
+  }
+  .touchSection--infor p {
+    width: 7px;
+    height: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 3px;
+  }
   .thre {
     display: grid;
   }

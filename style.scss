@@ -28,9 +28,11 @@ body{
   line-height: 70px;
 }
 
-&__get img{
-  width: 470px;
-  height: 40px;
+ .infor p{
+  font-size: 14px;
+  line-height: 20px;
+  width: 550px;
+  color: #737373;
 }
 
 .thre{
@@ -58,22 +60,29 @@ body{
 
 .first{
   margin-left: 60px;
-  width: 221px;
-  height: 22px;
-  margin-top: 6px;
+  font-family: Regular;
+}
+
+.secondd{
+  margin-left: 80px;
+  color: white;
+  font-family: Regular;
 }
 
 .second{
   margin-left: 80px;
-  width: 181px;
-  height: 24px;
+  font-family: Regular;
+}
+
+.threee{
+  margin-left: 110px;
+  color: white;
+  font-family: Regular; 
 }
 
 .three{
-  margin-top: 10px;
-  margin-left: 115px;
-  width: 103px;
-  height: 24px;
+  margin-left: 110px;
+  font-family: Regular;
 }
 
 button{
@@ -82,6 +91,14 @@ button{
   margin-left: 90px;
   border-color: #FFA62B;;
   background-color: white;
+  color: #FFA62B;
+  font-family: Regular;
+  font-size: 17,72px;
+}
+
+.sub{
+  color: white;
+  font-family: Regular; 
 }
 
 .location{
@@ -117,7 +134,7 @@ button{
   }
   
   .second{
-    margin-left: 80px;
+    margin-left: 0px;
     width: 181px;
     height: 24px;
   }
@@ -130,12 +147,19 @@ button{
   }
   
   button{
+    font-size: 14.72px;
     width: 160px;
     height: 44px;
     margin-left: 90px;
     border-color: #fff;;
     background-color: #252B42;
   }
+}
+
+button:hover{
+  cursor: pointer;
+ transform: scale(1.09);
+  transition: all 3s;
 }
 
 .telegramp{
@@ -201,7 +225,126 @@ button{
   }
 }
 
+@media only screen and ( max-width:767px ) {
+  .touchSection{
+    
+    &__get p{
+     line-height: 25px;
+     width: 360px;
+     margin-left: 50px;
+    }
+ 
+     &__get h1{
+       margin-left: 50px;
+       font-size: 50px;
+     }
+     &--infor p{
+       width: 7px;
+       height: 10px;
+       font-size: 12px;
+       text-align: center;
+       line-height: 3px;
+     }
+   }
+   
+   
+   .thre{
+    display: grid;
+    
+    &__contactPeace{
+     background-color: white;
+     width: 530px;
+     height: 670px;
+     margin-top: 0;
+     margin-left: 310px;
+   }
+ 
+    .location{
+     position: absolute;
+     top: 750px;
+     left: 310px;
+    }
+ 
+    .telegramp{
+     position: absolute;
+     top: 1240px;
+     left: 310px;
+    }
+   }
+}
+
+@media only screen and ( max-width:768px ) {
+  .touchSection{
+    
+    &__get p{
+     line-height: 25px;
+     width: 360px;
+     margin-left: 50px;
+    }
+ 
+     &__get h1{
+       margin-left: 50px;
+       font-size: 50px;
+     }
+     &--infor p{
+       width: 7px;
+       height: 10px;
+       font-size: 12px;
+       text-align: center;
+       line-height: 3px;
+     }
+   }
+   
+   
+   .thre{
+    display: grid;
+    
+    &__contactPeace{
+     background-color: white;
+     width: 530px;
+     height: 670px;
+     margin-top: 0;
+     margin-left: 310px;
+   }
+ 
+    .location{
+     position: absolute;
+     top: 750px;
+     left: 310px;
+    }
+ 
+    .telegramp{
+     position: absolute;
+     top: 1240px;
+     left: 310px;
+    }
+   }
+}
+
 @media only screen and ( max-width:568px ) {
+  
+  .touchSection{
+    
+   &__get p{
+    line-height: 25px;
+    width: 360px;
+    margin-left: 50px;
+   }
+
+    &__get h1{
+      margin-left: 50px;
+      font-size: 50px;
+    }
+    &--infor p{
+      width: 7px;
+      height: 10px;
+      font-size: 12px;
+      text-align: center;
+      line-height: 3px;
+    }
+  }
+  
+  
   .thre{
    display: grid;
    
